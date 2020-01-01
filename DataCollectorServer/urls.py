@@ -22,4 +22,6 @@ urlpatterns = [
 	path('api_submit_location_data/', views.api_submit_location_data),
 	path('api_submit_bt_scan_data/', views.api_submit_bt_scan_data),
 	path('api_battery_level_data/', views.api_battery_level_data),
+	path('api_get_data_submission_progress/', views.api_get_data_submission_progress),
+	path('api_get_lof_calculation_progress/', views.api_get_lof_calculation_progress),
 ]
